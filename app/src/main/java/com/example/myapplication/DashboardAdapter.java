@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.models.DashboardItem;
+import com.example.myapplication.DashboardItem;
 
 import java.util.List;
 

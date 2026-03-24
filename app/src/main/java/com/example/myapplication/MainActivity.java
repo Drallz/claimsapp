@@ -64,12 +64,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tvForgotPassword.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ResetPasswordActivity.class));
-            }
-        });
+
+
     }
 
     private void attemptLogin() {

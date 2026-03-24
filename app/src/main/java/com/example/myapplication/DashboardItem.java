@@ -13,7 +13,15 @@ public class DashboardItem {
         this.clickListener = clickListener;
     }
 
-    public String getTitle() { return title; }
-    public int getIconResId() { return iconResId; }
-    public View.OnClickListener getClickListener() { return clickListener; }
+    public String getTitle() {
+        return title;
+    }
+
+    public int getIconResId() {
+        return iconResId;
+    }
+
+    public View.OnClickListener getClickListener() {
+        return clickListener;
+    }
 }
